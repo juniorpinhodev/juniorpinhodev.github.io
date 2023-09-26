@@ -32,7 +32,7 @@ window.onscroll = () => {
         else {
             sec.classList.remove('show-animate');
         }
-        
+
     });
 
     // header
@@ -46,3 +46,37 @@ window.onscroll = () => {
     navbar.classList.remove('ativado');
 
 }
+
+                            // Copy text
+    // whatsapp
+function copyWhat() {
+    var copyText = document.getElementById("myWhatsapp");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
+
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Copiado: " + copyText.value;
+    }
+
+    function outFunc() {
+    var tooltip = document.getElementById("myTooltip");
+    tooltip.innerHTML = "Whatsapp Copiado";
+    }
+
+     // email
+    function copyMail() {
+        var copyText = document.getElementById("myeMail");
+        copyText.select();
+        copyText.setSelectionRange(0, 99999);
+        navigator.clipboard.writeText(copyText.value);
+
+        var tooltip = document.getElementById("myTooltip");
+        tooltip.innerHTML = "Copiado: " + copyText.value;
+        }
+
+        function outFunc() {
+        var tooltip = document.getElementById("myTooltip");
+        tooltip.innerHTML = "e-Mail Copiado";
+        }
+
