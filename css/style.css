@@ -16,14 +16,12 @@
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --text-color-alpha: #ffffffd8;
-    --main-color: #d1ae3a;  /*#d3b962; */
-    /* 00abf0 */
-
+    --main-color: #d4af37;
 }
 
 html {
     font-size: 62.5%;
-    overflow: auto; /*alterar para hidden */
+    overflow: auto;
 }
 
 body {
@@ -90,7 +88,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('../image/Tela-Background-portifolio2.png') no-repeat; /*adicionar foto*/
+    background: url('../image/Tela-Background-portifolio2.png') no-repeat; 
     background-size: cover;
     background-position: center;
 }
@@ -515,7 +513,7 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(3) .bar span {
-    width: 65%;
+    width: 60%;
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(4) .bar span {
@@ -744,8 +742,6 @@ div.yooltip {
     height: 100%;
 }
 
-/* --- */
-
 .tooltip {
     position: relative;
     display: inline-block;
@@ -888,6 +884,10 @@ div.yooltip {
 }
 
 @media (max-width: 768px) {
+
+    .home {
+        background: url('../image/TelaTablet768-Background-portifolio1-0.png') no-repeat; 
+    }
     .header {
         background: var(--bg-color);
     }
@@ -959,6 +959,10 @@ div.yooltip {
         font-size: 50%;
     }
 
+    .home {
+        background: url('../image/TelaMobile-Background-portifolio.png') no-repeat; 
+    }
+
     .home-content h1 {
         display: flex;
         flex-direction: column;
@@ -975,6 +979,10 @@ div.yooltip {
 }
 
 @media (max-width: 462px) {
+    .home {
+        background: url('../image/TelaMobile-Background-portifolio.png') no-repeat; 
+    }
+    
     .home-content h1 {
         font-size: 5.2rem;
     }
@@ -1000,6 +1008,7 @@ div.yooltip {
 @media (max-width: 371px) {
     .home {
         justify-content: center;
+        background: url('../image/TelaMobile371-Background-portifolio1-0.png') no-repeat; 
     }
 
     .home-content {
