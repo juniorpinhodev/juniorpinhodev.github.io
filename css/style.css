@@ -29,6 +29,15 @@ body {
     color: var(--text-color);
 }
 
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #ededed;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -509,7 +518,7 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(2) .bar span {
-    width: 80%;
+    width: 75%;
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(3) .bar span {
@@ -521,19 +530,23 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(5) .bar span {
-    width: 50%;
+    width: 30%;
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(6) .bar span {
-    width: 40%;
+    width: 30%;
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(7) .bar span {
-    width: 30%;
+    width: 20%;
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(8) .bar span {
-    width: 30%;
+    width: 20%;
+}
+
+.skills-column:nth-child(1) .skills-content .level:nth-child(9) .bar span {
+    width: 70%;
 }
 
 /* Níveis Skills Profissionais */
@@ -547,9 +560,8 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(3) .bar span {
-    width: 40%;
+    width: 35%;
 }
-
 .skills-column:nth-child(2) .skills-content .level:nth-child(4) .bar span {
     width: 30%;
 }
@@ -560,6 +572,10 @@ span {
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(6) .bar span {
     width: 60%;
+}
+
+.skills-column:nth-child(2) .skills-content .level:nth-child(7) .bar span {
+    width: 70%;
 }
 
 /* contatos  */
