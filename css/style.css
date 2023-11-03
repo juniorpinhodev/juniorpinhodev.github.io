@@ -38,6 +38,20 @@ a {
     color: #ededed;
 }
 
+#change-language {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    text-decoration: none; 
+}
+
+#change-language img {
+    width: 45px; 
+    height: auto;
+}
+
+
 .header {
     position: fixed;
     top: 0;
@@ -97,7 +111,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('../image/Tela-Background-portifolio2.png') no-repeat; 
+    background: url('../image/Tela-Background-portifolio2.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -193,7 +207,7 @@ section {
 }
 
 .btn-box .btn:nth-child(2)::before {
-    background: var(--main-color);  
+    background: var(--main-color);
 }
 
 .btn-box .btn::before {
@@ -511,8 +525,10 @@ span {
     background: var(--main-color);
 }
 
-/* Níveis Linguagens */
 
+
+
+/* Níveis Linguagens */
 .skills-column:nth-child(1) .skills-content .level:nth-child(1) .bar span {
     width: 90%;
 }
@@ -540,17 +556,11 @@ span {
 .skills-column:nth-child(1) .skills-content .level:nth-child(7) .bar span {
     width: 20%;
 }
-
 .skills-column:nth-child(1) .skills-content .level:nth-child(8) .bar span {
     width: 20%;
 }
 
-.skills-column:nth-child(1) .skills-content .level:nth-child(9) .bar span {
-    width: 70%;
-}
-
-/* Níveis Skills Profissionais */
-
+/* Níveis Profissionais Skills */
 .skills-column:nth-child(2) .skills-content .level:nth-child(1) .bar span {
     width: 95%;
 }
@@ -562,6 +572,7 @@ span {
 .skills-column:nth-child(2) .skills-content .level:nth-child(3) .bar span {
     width: 35%;
 }
+
 .skills-column:nth-child(2) .skills-content .level:nth-child(4) .bar span {
     width: 30%;
 }
@@ -574,9 +585,37 @@ span {
     width: 60%;
 }
 
-.skills-column:nth-child(2) .skills-content .level:nth-child(7) .bar span {
+/* Níveis Frameworks e Ferramentas */
+.skills-column:nth-child(3) .skills-content .level:nth-child(1) .bar span {
     width: 70%;
 }
+
+.skills-column:nth-child(3) .skills-content .level:nth-child(2) .bar span {
+    width: 10%;
+}
+
+.skills-column:nth-child(3) .skills-content .level:nth-child(3) .bar span {
+    width: 10%;
+}
+
+.skills-column:nth-child(3) .skills-content .level:nth-child(4) .bar span {
+    width: 10%;
+}
+
+/* Níveis Metodologia Ágile */
+.skills-column:nth-child(4) .skills-content .level:nth-child(1) .bar span {
+    width: 30%;
+}
+
+.skills-column:nth-child(4) .skills-content .level:nth-child(2) .bar span {
+    width: 30%;
+}
+
+.skills-column:nth-child(4) .skills-content .level:nth-child(3) .bar span {
+    width: 20%;
+}
+
+
 
 /* contatos  */
 
@@ -608,7 +647,7 @@ div.copy{
    min-height: auto;
    padding-bottom: 5rem;
    gap: 3rem;
-   
+
 }
 
 .cWhat {
@@ -902,7 +941,7 @@ div.yooltip {
 @media (max-width: 768px) {
 
     .home {
-        background: url('../image/TelaTablet768-Background-portifolio1-0.png') no-repeat; 
+        background: url('../image/TelaTablet768-Background-portifolio1-0.png') no-repeat;
     }
     .header {
         background: var(--bg-color);
@@ -976,7 +1015,7 @@ div.yooltip {
     }
 
     .home {
-        background: url('../image/TelaMobile-Background-portifolio.png') no-repeat; 
+        background: url('../image/TelaMobile-Background-portifolio.png') no-repeat;
     }
 
     .home-content h1 {
@@ -996,9 +1035,9 @@ div.yooltip {
 
 @media (max-width: 462px) {
     .home {
-        background: url('../image/TelaMobile-Background-portifolio.png') no-repeat; 
+        background: url('../image/TelaMobile-Background-portifolio.png') no-repeat;
     }
-    
+
     .home-content h1 {
         font-size: 5.2rem;
     }
@@ -1024,7 +1063,7 @@ div.yooltip {
 @media (max-width: 371px) {
     .home {
         justify-content: center;
-        background: url('../image/TelaMobile371-Background-portifolio1-0.png') no-repeat; 
+        background: url('../image/TelaMobile371-Background-portifolio1-0.png') no-repeat;
     }
 
     .home-content {
