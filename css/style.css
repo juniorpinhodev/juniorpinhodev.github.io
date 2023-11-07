@@ -566,22 +566,26 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(2) .bar span {
-    width: 70%;
+    width: 75%;
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(3) .bar span {
-    width: 35%;
+    width: 50%;
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(4) .bar span {
-    width: 30%;
+    width: 35%;
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(5) .bar span {
-    width: 70%;
+    width: 30%;
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(6) .bar span {
+    width: 70%;
+}
+
+.skills-column:nth-child(2) .skills-content .level:nth-child(7) .bar span {
     width: 60%;
 }
 
@@ -591,20 +595,24 @@ span {
 }
 
 .skills-column:nth-child(3) .skills-content .level:nth-child(2) .bar span {
-    width: 10%;
+    width: 70%;
 }
 
 .skills-column:nth-child(3) .skills-content .level:nth-child(3) .bar span {
-    width: 10%;
+    width: 30%;
 }
 
 .skills-column:nth-child(3) .skills-content .level:nth-child(4) .bar span {
     width: 10%;
 }
 
+.skills-column:nth-child(3) .skills-content .level:nth-child(5) .bar span {
+    width: 10%;
+}
+
 /* Níveis Metodologia Ágile */
 .skills-column:nth-child(4) .skills-content .level:nth-child(1) .bar span {
-    width: 30%;
+    width: 85%;
 }
 
 .skills-column:nth-child(4) .skills-content .level:nth-child(2) .bar span {
