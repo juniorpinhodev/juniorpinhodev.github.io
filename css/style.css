@@ -530,16 +530,17 @@ span {
 
 
 /* Níveis Linguagens */
+
 .skills-column:nth-child(1) .skills-content .level:nth-child(1) .bar span {
     width: 95%;
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(2) .bar span {
-    width: 85%;
+    width: 50%;
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(3) .bar span {
-    width: 80%;
+    width: 40%;
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(4) .bar span {
@@ -547,79 +548,108 @@ span {
 }
 
 .skills-column:nth-child(1) .skills-content .level:nth-child(5) .bar span {
-    width: 30%;
-}
-
-.skills-column:nth-child(1) .skills-content .level:nth-child(6) .bar span {
-    width: 20%;
-}
-
-/* Níveis Profissionais Skills */
-.skills-column:nth-child(2) .skills-content .level:nth-child(1) .bar span {
     width: 95%;
 }
 
-.skills-column:nth-child(2) .skills-content .level:nth-child(2) .bar span {
+.skills-column:nth-child(1) .skills-content .level:nth-child(6) .bar span {
+    width: 85%;
+}
+
+.skills-column:nth-child(1) .skills-content .level:nth-child(7) .bar span {
+    width: 50%;
+}
+
+
+
+
+/* Tecnologias */
+.skills-column:nth-child(2) .skills-content .level:nth-child(1) .bar span {
     width: 90%;
 }
 
+.skills-column:nth-child(2) .skills-content .level:nth-child(2) .bar span {
+    width: 50%;
+}
+
 .skills-column:nth-child(2) .skills-content .level:nth-child(3) .bar span {
-    width: 80%;
+    width: 95%;
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(4) .bar span {
-    width: 40%;
+    width: 90%;
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(5) .bar span {
-    width: 30%;
+    width: 90%;
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(6) .bar span {
     width: 80%;
 }
 
-.skills-column:nth-child(2) .skills-content .level:nth-child(7) .bar span {
-    width: 60%;
-}
-
-/* Níveis Frameworks e Ferramentas */
-.skills-column:nth-child(3) .skills-content .level:nth-child(1) .bar span {
-    width: 70%;
-}
-
-.skills-column:nth-child(3) .skills-content .level:nth-child(2) .bar span {
-    width: 10%;
-}
-
-.skills-column:nth-child(3) .skills-content .level:nth-child(3) .bar span {
-    width: 90%;
-}
-
-.skills-column:nth-child(3) .skills-content .level:nth-child(4) .bar span {
+.skills-column:nth-child(2) .skills-content .level:nth-child(7) .bar span { 
     width: 80%;
 }
 
-.skills-column:nth-child(3) .skills-content .level:nth-child(5) .bar span {
+.skills-column:nth-child(2) .skills-content .level:nth-child(8) .bar span {
+    width: 50%;
+}
+
+.skills-column:nth-child(2) .skills-content .level:nth-child(9) .bar span {
+    width: 50%;
+}
+
+.skills-column:nth-child(2) .skills-content .level:nth-child(10) .bar span {
     width: 70%;
 }
 
-.skills-column:nth-child(3) .skills-content .level:nth-child(6) .bar span {
+.skills-column:nth-child(2) .skills-content .level:nth-child(11) .bar span {
     width: 70%;
 }
 
 
 /* Níveis Metodologia Ágile */
-.skills-column:nth-child(4) .skills-content .level:nth-child(1) .bar span {
+.skills-column:nth-child(3) .skills-content .level:nth-child(1) .bar span {
     width: 90%;
 }
 
-.skills-column:nth-child(4) .skills-content .level:nth-child(2) .bar span {
+.skills-column:nth-child(3) .skills-content .level:nth-child(2) .bar span {
     width: 80%;
 }
 
-.skills-column:nth-child(4) .skills-content .level:nth-child(3) .bar span {
+.skills-column:nth-child(3) .skills-content .level:nth-child(3) .bar span {
     width: 75%;
+}
+
+
+/* Níveis Profissionais Skills */
+.skills-column:nth-child(4) .skills-content .level:nth-child(1) .bar span {
+    width: 85%;
+}
+
+.skills-column:nth-child(4) .skills-content .level:nth-child(2) .bar span {
+    width: 90%;
+}
+
+.skills-column:nth-child(4) .skills-content .level:nth-child(3) .bar span {
+    width: 80%;
+}
+
+.skills-column:nth-child(4) .skills-content .level:nth-child(4) .bar span {
+    width: 80%;
+}
+
+.skills-column:nth-child(4) .skills-content .level:nth-child(5) .bar span {
+    width: 70%;
+}
+
+
+.skills-column:nth-child(4) .skills-content .level:nth-child(6) .bar span {
+    width: 80%;
+}
+
+.skills-column:nth-child(4) .skills-content .level:nth-child(7) .bar span {
+    width: 60%;
 }
 
 
