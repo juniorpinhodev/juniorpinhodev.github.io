@@ -566,11 +566,6 @@ span {
     width: 85%;
 }
 
-.skills-column:nth-child(1) .skills-content .level:nth-child(7) .bar span {
-    width: 50%;
-}
-
-
 
 
 /* Tecnologias */
@@ -599,7 +594,7 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(7) .bar span { 
-    width: 80%;
+    width: 90%;
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(8) .bar span {
@@ -607,7 +602,7 @@ span {
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(9) .bar span {
-    width: 50%;
+    width: 95%;
 }
 
 .skills-column:nth-child(2) .skills-content .level:nth-child(10) .bar span {
