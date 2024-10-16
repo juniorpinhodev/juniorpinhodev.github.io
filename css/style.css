@@ -33,9 +33,20 @@ p {
     text-align: justify;
 }
 
+
 a {
     text-decoration: none;
     color: #ededed;
+}
+
+.container-center {
+    display: flex;
+    font-size: 1.8em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 2em;
+    
 }
 
 #change-language {
